@@ -398,7 +398,7 @@ td.spaceoutitems:hover {
 
 /* MEDIA RULES CELULARES */
 
-/* @media only screen and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
   body > div.coloreo > div.contenido > div.titulo > h1 {
     font-size: 32px;
   }
@@ -422,4 +422,4 @@ td.spaceoutitems:hover {
   body > div.coloreocontacto > div.contenidocontacto {
     font-size: 13px;
   }
-} */
+}
