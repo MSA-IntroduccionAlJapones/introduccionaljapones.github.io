@@ -395,3 +395,11 @@ td.spaceoutitems:hover {
   background-color: #000000;
   color: #ee4e81;
 }
+
+/* MEDIA RULES */
+
+@media screen and (min-width: 1000px) {
+  p {
+    font-size: 10px;
+  }
+}
