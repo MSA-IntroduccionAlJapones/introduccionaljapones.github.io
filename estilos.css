@@ -396,10 +396,30 @@ td.spaceoutitems:hover {
   color: #ee4e81;
 }
 
-/* MEDIA RULES */
+/* MEDIA RULES CELULARES */
 
-@media only screen and (max-width: 900px) {
-  body > div.coloreo > div.contenido > p {
-    font-size: 10px;
+/* @media only screen and (max-width: 700px) {
+  body > div.coloreo > div.contenido > div.titulo > h1 {
+    font-size: 32px;
   }
-}
+  body > div.coloreo > div.contenido > p.intro {
+    font-size: 17px;
+  }
+
+  body > div.coloreo > div.contenido > div.interlineado > p {
+    font-size: 16px;
+  }
+  body > div.coloreo > div.contenido > div.interlineado > h2 {
+    font-size: 28px;
+  }
+  body > div.coloreo > div.contenido > div.interlineado > h3 {
+    font-size: 25px;
+  }
+  body > div.coloreo > div.contenido > div.interlineado > h4 {
+    font-size: 21px;
+  }
+
+  body > div.coloreocontacto > div.contenidocontacto {
+    font-size: 13px;
+  }
+} */
