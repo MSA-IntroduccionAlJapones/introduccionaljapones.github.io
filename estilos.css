@@ -397,6 +397,6 @@ td.spaceoutitems:hover {
 }
 
 
-div.interlineado > figure > figcaption > a {
+body > div.coloreo > div.contenido > div.interlineado > figure > figcaption > a {
   color: #d3e495;
 }
