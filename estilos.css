@@ -395,3 +395,8 @@ td.spaceoutitems:hover {
   background-color: #000000;
   color: #ee4e81;
 }
+
+
+div.interlineado > a {
+  color: #d3e495;
+}
