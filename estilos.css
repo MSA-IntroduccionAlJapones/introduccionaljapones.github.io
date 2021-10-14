@@ -160,14 +160,6 @@ a {
   color: #ffffff;
 }
 
-div.fuentes > ul > li > a {
-  color: #8bf1ff;
-  font-size: 20px;
-}
-
-div.fuentes > ul > li > a:hover {
-  color: #ff8484;
-}
 
 div.contenidocontacto > p > a {
   color: #000000;
@@ -397,6 +389,14 @@ td.spaceoutitems:hover {
 }
 
 
-body > div.coloreo > div.contenido > div.interlineado > figure > figcaption > a {
+a.fuente {
   color: #d3e495;
+}
+
+a.fuentesfinales {
+  color: #d3e495;
+}
+
+a.fuentesfinales:visited {
+  color: #e693f7;
 }
