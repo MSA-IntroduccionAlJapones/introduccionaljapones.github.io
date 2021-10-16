@@ -400,3 +400,51 @@ a.fuentesfinales {
 a.fuentesfinales:visited {
   color: #e693f7;
 }
+
+button {
+  color: #17f787;
+  background-color: #0e0e0f;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 2px solid #298629;
+}
+
+
+table.updatelog {
+  color: #5cecff;
+  font-size: 18px;
+  table-layout: fixed;
+  width: 85%;
+  max-width: 100%;
+}
+
+th.updatelog {
+  color: #ffffff;
+  background-color: #6996e9;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: left;
+  word-wrap: break-word;
+  height: auto;
+  font-size: 16px;
+}
+
+td.updatelog {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  border-bottom: 1px solid rgb(181, 224, 226);
+  word-wrap: break-word;
+  height: auto;
+  font-size: 14px;
+}
+
+p.version {
+  color: #fff700;
+  font-size: 18px;
+}
