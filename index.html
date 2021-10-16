@@ -96,13 +96,13 @@
             <br><br>
             <p class="intro">Esta guía está especialmente diseñada para aquellos que decidieron comenzar a estudiar japonés. Se tratarán temas esenciales como el idioma en sí mismo y también parte de la cultura e historia de Japón para así lograr entender el manejo que hay que tener al comunicarse en japonés. Los conceptos clave se explicarán de principio a fin, y otras cuestiones más variadas serán abarcadas de forma que se comprenda la explicación general, sin dar mucha vuelta. Desde conceptos básicos del japonés y ejemplos, hasta cuestiones personales e individuales necesarias para un estudio eficiente del idioma, te doy la bienvenida a esta guía introductoria al japonés.</p>
             <br><br>
-              
+            
             <table class="indice">
                <tr>
-                  <th class="indice">Tabla de contenidos</th>
+                  <th class="indice">Tabla de contenidos <span style="padding-left: 10px;"></span><button onclick="toggleContenidosFunction()" style="padding-left: 4px; padding-right: 4px;">Ocultar/Mostrar</button></th>
                </tr>
                <tr>
-                  <td class="indiceinferior">
+                  <td class="indiceinferior" id="togglecontenidos">
                      <ol>
                         <li class="spaceouttopli"><a class="indice1" href="#parte1">Sistemas de escritura</a> <a href="#parte1"><img src="flecha1.1.png" alt="Ir" width="19"></a></li>
 
@@ -162,7 +162,7 @@
                   </td>
                </tr>
             </table>
-              
+
 
             <br><br><br>
             <hr>
@@ -1478,5 +1478,16 @@
       </div>
 
       <div style="padding-bottom: 40px;"></div>
+
+      <script>
+         function toggleContenidosFunction() {
+           var x = document.getElementById("togglecontenidos");
+           if (x.style.display === "none") {
+             x.style.display = "block";
+           } else {
+             x.style.display = "none";
+           }
+         }
+         </script>
    </body>
 </html>
