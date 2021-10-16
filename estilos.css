@@ -6,8 +6,8 @@
 
 body {
   margin-top: 15px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
   background-color: #8a3c21;
   word-break: keep-all;
 }
@@ -419,6 +419,8 @@ button {
 
 table.updatelog {
   color: #5cecff;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 18px;
   table-layout: fixed;
   width: 85%;
@@ -444,9 +446,11 @@ td.updatelog {
   word-wrap: break-word;
   height: auto;
   font-size: 14px;
+  line-height: 20px;
 }
 
 p.version {
   color: #fff700;
   font-size: 18px;
+  padding-bottom: 10px;
 }
