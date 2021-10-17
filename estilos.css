@@ -18,13 +18,13 @@ div.coloreo {
 }
 
 div.coloreoseparacion {
-  background-image: linear-gradient(#101313, #bbb697);
+  background-image: linear-gradient(#101313, #a7a281);
   margin-bottom: 0px;
   padding-bottom: 40px;
 }
 
 div.coloreocontacto {
-  background-color: #bbb697;
+  background-color: #a7a281;
   padding-bottom: 20px;
   margin-top: 0px;
 }
@@ -345,7 +345,6 @@ li.spaceoutol {
 }
 
 
-
 table.lista1 {
   border-collapse: collapse;
   margin-left: 1%;
@@ -417,19 +416,27 @@ button {
 }
 
 
+div.updatelogcolor {
+  background-color: #474747;
+  width: 80%;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 table.updatelog {
-  color: #5cecff;
   margin-left: auto;
   margin-right: auto;
   font-size: 18px;
   table-layout: fixed;
-  width: 85%;
+  width: 100%;
   max-width: 100%;
 }
 
 th.updatelog {
   color: #ffffff;
   background-color: #6996e9;
+  padding-left: 20px;
   padding-top: 6px;
   padding-bottom: 6px;
   text-align: left;
@@ -441,16 +448,23 @@ th.updatelog {
 td.updatelog {
   padding-top: 8px;
   padding-bottom: 8px;
-  text-align: center;
-  border-bottom: 1px solid rgb(181, 224, 226);
+  text-align: left;
   word-wrap: break-word;
   height: auto;
   font-size: 14px;
-  line-height: 20px;
+  background-color: #050505;
 }
 
 p.version {
+  text-align: left;
   color: #fff700;
-  font-size: 18px;
-  padding-bottom: 10px;
+  font-size: 19px;
+  padding-left: 10px;
+}
+
+p.cambios {
+  text-align: left;
+  font-size: 14px;
+  line-height: 1;
+  padding-left: 25px;
 }
