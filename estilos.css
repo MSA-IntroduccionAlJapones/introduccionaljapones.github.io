@@ -344,29 +344,46 @@ li.spaceoutol {
   padding-left: 15px;
 }
 
-
-table.lista1 {
-  border-collapse: collapse;
-  margin-left: 1%;
-  color: #21d47b;
-  font-size: 18px;
-  display: inline-table;
+table.vocabulario {
+  width: 100%;
+  margin-left: 0;
 }
 
-table.lista2 {
+table.lista {
   border-collapse: collapse;
-  margin-left: 8%;
-  color: #21d47b;
   font-size: 18px;
-  display: inline-table;
+  table-layout: fixed;
+  margin-left: 0px;
+  max-width: 100%;
 }
 
 th.lista, td.lista {
   padding: 6px;
   text-align: left;
   border-bottom: 1px solid rgb(231, 209, 167);
+  word-wrap: break-word;
+  height: auto;
 }
 
+th.listavacia, td.listavacia {
+  padding: 9px;
+}
+
+td.lista:nth-child(1), th.lista:nth-child(1) {
+  color: #7de1ff;
+}
+
+td.lista:nth-child(2), th.lista:nth-child(2) {
+  color: #7de1ff;
+}
+
+td.lista:nth-child(4), th.lista:nth-child(4) {
+  color: #40e994;
+}
+
+td.lista:nth-child(5), th.lista:nth-child(5) {
+  color: #40e994;
+}
 
 
 tr.estandar:hover {
@@ -377,10 +394,6 @@ tr.estandar:hover {
 td.contraido:hover {
   background-color: #afc1c9;
   color: #000000;
-}
-
-tr.lista:hover {
-  background-color: #31332a;
 }
 
 td.spaceoutitems:hover {
