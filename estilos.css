@@ -429,7 +429,7 @@ button {
 }
 
 
-div.updatelogcolor {
+div.changelogcolor {
   background-color: #474747;
   width: 80%;
   padding: 5px;
@@ -437,7 +437,7 @@ div.updatelogcolor {
   margin-right: auto;
 }
 
-table.updatelog {
+table.changelog {
   margin-left: auto;
   margin-right: auto;
   font-size: 18px;
@@ -446,7 +446,7 @@ table.updatelog {
   max-width: 100%;
 }
 
-th.updatelog {
+th.changelog {
   color: #ffffff;
   background-color: #6996e9;
   padding-left: 20px;
@@ -458,7 +458,7 @@ th.updatelog {
   font-size: 16px;
 }
 
-td.updatelog {
+td.changelog {
   padding-top: 8px;
   padding-bottom: 8px;
   text-align: left;
