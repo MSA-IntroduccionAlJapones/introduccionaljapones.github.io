@@ -63,11 +63,11 @@ div.titulo {
   margin: auto;
   display: table;
 
-  background-color: #5e89ac;
+  background-color: #ffd000;
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   border-radius: 20px;
-  border: 7px solid #5e89ac;
+  border: 7px solid #ffd000;
   padding-left: 20px;
   padding-right: 20px;
 
@@ -103,7 +103,7 @@ p.final {
 h1 {
   font-size: 36px;
   text-align: center;
-  color: #ffffff;
+  color: #000000;
   font-weight: 500;
 }
 
@@ -125,6 +125,15 @@ h4 {
   text-align: left;
   color: #ffffff;
   text-decoration: underline;
+}
+
+#cajaAdvertencia {
+  border-radius: 25px;
+  background: #b5f6ff;
+  padding: 20px;
+  border: 5px solid #00a8c5;
+  color: #000000;
+  display: inline-block;
 }
 
 hr {
